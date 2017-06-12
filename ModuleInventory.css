@@ -13,6 +13,8 @@
 	height: 100%;
 	background-color: #7A6E58;
 	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
 }
 
 .FloatCenter
@@ -34,10 +36,10 @@
 {
 	background-color: #4D4737;
 	text-align: center;
-	font-family: "Arial Black", Gadget, sans-serif;
 	height: 50px;
 	line-height: 50px;
 	color: #cecebf;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 
 .InventoryClose
@@ -105,4 +107,45 @@
 .InvActionBtn:hover
 {
 	opacity: 1;
+}
+
+.InventoryItems
+{
+	flex: 1;
+	overflow-y: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.InventoryItem
+{
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-color: #5B5243;
+	cursor: pointer;
+	opacity: 0.8;
+	padding: 5px;
+	border-radius: 6px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.InventoryItem:hover
+{
+	opacity: 1;
+}
+
+.InventoryItemImg
+{
+	width: 40px;
+	height: 40px;
+}
+
+.InventoryItemText
+{
+	text-align: center;
+	color: #cecebf;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
