@@ -149,3 +149,46 @@
 	color: #cecebf;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
+
+.InventoryProgressbarWrapper
+{
+	width: 100%;
+	background-color: #4D4737;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.InventoryProgressbar
+{
+	margin: 0 auto;
+	width: 90%;
+	height: 30px;
+	background-color: #776B56;
+}
+
+.InventoryProgressbarFill
+{
+	width: 38%;
+	background-color: #2D2921;
+	height: 30px;
+}
+
+.InventoryTextPercent
+{
+	float: left;
+	text-align: center left;
+	line-height: 30px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #cecebf;
+	padding-left: 10px;
+}
+
+.InventoryTextAbsolute
+{
+	float: right;
+	text-align: center right;
+	line-height: 30px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #cecebf;
+	padding-right: 10px;
+}
